@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+    <link
+    rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="./lib/fullpage.css">
+    <link rel="stylesheet" href="./css/section2.css" />
+    <link rel="stylesheet" href="./css/section3.css" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="./lib/fullpage.js"></script>
+    <script src="./lib/scrolloverflow.min.js"></script>
+
+    <script src="https://unpkg.com/typeit@8.4.0/dist/index.umd.js"></script>
+</head>
+<body>
+  
+  <div id="fullpage">
+    <ul id="menu">
+      <li><a href="#Greeting" data-menuanchor="Greeting" class="active">Greeting</a><span>안녕하세요 :)</span></li>
+      <li><a href="#Portfolio" data-menuanchor="Portfolio">Portfolio</a><span>개인 포트폴리오 입니다.</span></li>
+      <li><a href="#Project" data-menuanchor="Project">Project</a><span>참여했던 프로젝트 입니다.</span></li>
+      <li><a href="#Intro" data-menuanchor="Intro">Intro</a><span>저에 대해 알아보겠습니다.</span></li>
+    </ul>
+    <!--section1-->
+    <div class="section section1">
+      <div class="inner">
+        <div class="contents">
+          <div class="text" >
+            <p id="introTxt"></p>
+          </div>
+        </div>
+        <canvas class="canvas1"></canvas>
+      </div>
+      <span class="scroll-down"><img src="./images/scroll.png" alt=""></span>
+    </div>
+    <!--//section1-->
+
+    <!--section3-->
+    <div class="section section3">
+      <div class="slider">
+      <div class="slider--el slider--el-1 anim-4parts active">
+        <div class="slider--el-bg">
+          <div class="part top left"></div>
+          <div class="part top right"></div>
+          <div class="part bot left"></div>
+          <div class="part bot right"></div>
+        </div>
+        <div class="slider--el-content">
+          <div class="info">
+            <div class="info-inner">
+              <div>
+                <span class="title">Natuur Renewal</span>
+                <p class="desc">
+                  자연이라는 컨셉의 나뚜르에 맞게 크고 시원한 비쥬얼을 사용하여 디자인 하였습니다.
+                  반응형으로 퍼블리싱 하였으며 깃헙페이지로 배포하였습니다.
+                </p>
+              </div>
+              <div>
+                <span class="stack-title">Stack</span>
+                <p class="stack-icon">
+                    <img src="./images/icon-html-5.png" alt="">
+                    <img src="./images/icon-css.png" alt="">
+                    <img src="./images/icon-js.png" alt="">
+                    <img src="./images/icon-github.png" alt="">
+                </p>
+              </div>
+            </div>
+            <div class="link">
+              <a href="https://github.com/drrd100/natuur" target="_blank"><img src="./images/icon-github.png" alt=""><span>GitHub</span></a>
+              <a href="https://drrd100.github.io/natuur" target="_blank"><img src="./images/icon-link.png" alt=""><span>Link</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider--el slider--el-2 anim-9parts">
+        <div class="slider--el-bg">
+          <div class="part left-top"></div>
+          <div class="part mid-top"></div>
+          <div class="part right-top"></div>
+          <div class="part left-mid"></div>
+          <div class="part mid-mid"></div>
+          <div class="part right-mid"></div>
+          <div class="part left-bot"></div>
+          <div class="part mid-bot"></div>
+          <div class="part right-bot"></div>
+        </div>
+        <div class="slider--el-content">
+          <div class="slider--el-content">
+            <div class="info">
+              <div class="info-inner">
+                <div>
+                  <span class="title">Dr.Jart Renewal</span>
+                  <p class="desc">
+                    쇼핑몰 특성에 맞게 메인에 다양한 상품을 노출하여 디자인 하였습니다. 
+                    프론트는 React, 백엔드는 node로 만들었으며 RDS로 DB를 만들고 EC2에 배포하였습니다.
+                  </p>
+                </div>
+                <div>
+                  <span class="stack-title">Stack</span>
+                  <p class="stack-icon">
+                      <img src="./images/icon-html-5.png" alt="">
+                      <img src="./images/icon-css.png" alt="">
+                      <img src="./images/icon-js.png" alt="">
+                      <img src="./images/icon-react.png" alt="">
+                      <img src="./images/icon-node.png" alt="">
+                      <img src="./images/icon-aws.png" alt="">
+                  </p>
+                </div>
+              </div>
+              <div class="link">
+                <a href="https://github.com/drrd100/Jart" target="_blank"><img src="./images/icon-github.png" alt=""><span>GitHub</span></a>
+                <a href="http://3.35.230.1:5000/" target="_blank"><img src="./images/icon-link.png" alt=""><span>Link</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider--el slider--el-3 anim-5parts">
+        <div class="slider--el-bg">
+          <div class="part part-1"></div>
+          <div class="part part-2"></div>
+          <div class="part part-3"></div>
+          <div class="part part-4"></div>
+          <div class="part part-5"></div>
+        </div>
+        <div class="slider--el-content">
+          <div class="slider--el-content">
+            <div class="info">
+              <div class="info-inner">
+                <div>
+                  <span class="title">Socar Promotion</span>
+                  <p class="desc">
+                    가을캠핑을 모티브로 원페이지 프로모션을 디자인 하였습니다. 
+                    프론트는 React로 구현하였고 JSON-server 라이브러리로 API를 만들어 헤로쿠에 배포하였습니다.
+                  </p>
+                </div>
+                <div>
+                  <span class="stack-title">Stack</span>
+                  <p class="stack-icon">
+                      <img src="./images/icon-html-5.png" alt="">
+                      <img src="./images/icon-css.png" alt="">
+                      <img src="./images/icon-js.png" alt="">
+                      <img src="./images/icon-react.png" alt="">
+                      <img src="./images/icon-heroku.png" alt="">
+                  </p>
+                </div>
+              </div>
+              <div class="link">
+                <a href="https://github.com/drrd100/socar" target="_blank"><img src="./images/icon-github.png" alt=""><span>GitHub</span></a>
+                <a href="http://socar-heroku.herokuapp.com/" target="_blank"><img src="./images/icon-link.png" alt=""><span>Link</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="slider--el slider--el-4 anim-3parts">
+        <div class="slider--el-bg">
+          <div class="part left"></div>
+          <div class="part mid"></div>
+          <div class="part right"></div>
+        </div>
+        <div class="slider--el-content">
+          <h2 class="slider--el-heading">Fourth slide</h2>
+        </div>
+      </div> -->
+      <span class="slider--control left"></span>
+      <span class="slider--control right"></span>
+    </div></div>
+    <!--//section3-->
+
+    <!--section2-->
+    <div class="section section2">
+      <div class="cont s--inactive">
+        <!-- cont inner start -->
+        <div class="cont__inner">
+          <!-- el start -->
+          <div class="el">
+            <div class="el__overflow">
+              <div class="el__inner">
+                <div class="el__bg"></div>
+                <div class="el__preview-cont">
+                  <h2 class="el__heading">바이말리</h2>
+                </div>
+                <div class="el__content">
+                  <div class="info">
+                    <div class="info-inner">
+                      <div>
+                        <span class="title">바이말리</span>
+                        <p class="desc">
+                          카페24로 만들어 졌으며 전체 퍼블리싱에 참여했습니다.
+                        </p>
+                      </div>
+                      <div>
+                      </div>
+                    </div>
+                    <div class="link">
+                      <a href="https://m.bymallee.com/" target="_blank"><img src="./images/icon-link.png" alt=""><span>Mobile</span></a>
+                      <a href="https://bymallee.com/" target="_blank"><img src="./images/icon-link.png" alt=""><span>DeskTop</span></a>
+                    </div>
+                  </div>
+                  <div class="el__close-btn"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- el end -->
+          <!-- el start -->
+          <div class="el">
+            <div class="el__overflow">
+              <div class="el__inner">
+                <div class="el__bg"></div>
+                <div class="el__preview-cont">
+                  <h2 class="el__heading">도서관 플러스</h2>
+                </div>
+                <div class="el__content">
+                  <div class="info">
+                    <div class="info-inner">
+                      <div>
+                        <span class="title">도서관 플러스</span>
+                        <p class="desc">
+                          원페이지 반응형 디자인이며 퍼블리싱에 참여했습니다.
+                        </p>
+                      </div>
+                      <div>
+                      </div>
+                    </div>
+                    <div class="link">
+                      <a href="http://www.libraryplus.co.kr" target="_blank"><img src="./images/icon-link.png" alt=""><span>Link</span></a>
+                    </div>
+                  </div>
+                  <div class="el__close-btn"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- el end -->
+          <!-- el start -->
+          <div class="el">
+            <div class="el__overflow">
+              <div class="el__inner">
+                <div class="el__bg"></div>
+                <div class="el__preview-cont">
+                  <h2 class="el__heading">우리고장 대구경북 다시보기</h2>
+                </div>
+                <div class="el__content">
+                  <div class="info">
+                    <div class="info-inner">
+                      <div>
+                        <span class="title">우리고장 대구경북 다시보기</span>
+                        <p class="desc">
+                          반응형 다지인이며 서브페이지 퍼블리싱에 참여하였습니다.
+                        </p>
+                      </div>
+                      <div>
+                      </div>
+                    </div>
+                    <div class="link">
+                      <a href="https://www.daegubook.com/" target="_blank"><img src="./images/icon-link.png" alt=""><span>Link</span></a>
+                    </div>
+                  </div>
+                  <div class="el__close-btn"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- el end -->
+          <!-- el start -->
+          <div class="el">
+            <div class="el__overflow">
+              <div class="el__inner">
+                <div class="el__bg"></div>
+                <div class="el__preview-cont">
+                  <h2 class="el__heading">블루베리 NFT</h2>
+                </div>
+                <div class="el__content">
+                  <div class="info">
+                    <div class="info-inner">
+                      <div>
+                        <span class="title">블루베리 NFT</span>
+                        <p class="desc">
+                          반응형 디자인이며 전체 퍼블리싱에 참여하였습니다.
+                        </p>
+                      </div>
+                      <div>
+                      </div>
+                    </div>
+                    <div class="link">
+                      <a href="http://www.unidusok.com/" target="_blank"><img src="./images/icon-link.png" alt=""><span>Link</span></a>
+                    </div>
+                  </div>
+                  <div class="el__close-btn"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- el end -->
+          <!-- el start -->
+          <div class="el">
+            <div class="el__overflow">
+              <div class="el__inner">
+                <div class="el__bg"></div>
+                <div class="el__preview-cont">
+                  <h2 class="el__heading">노리야 학교가자</h2>
+                </div>
+                <div class="el__content">
+                  <div class="info">
+                    <div class="info-inner">
+                      <div>
+                        <span class="title">노리야 학교가자</span>
+                        <p class="desc">
+                          원페이지 반응형 디자인이며 퍼블리싱에 참여하였습니다.
+                        </p>
+                      </div>
+                      <div>
+                      </div>
+                    </div>
+                    <div class="link">
+                      <a href="http://www.norischool.co.kr/" target="_blank"><img src="./images/icon-link.png" alt=""><span>Link</span></a>
+                    </div>
+                  </div>
+                  <div class="el__close-btn"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- el end -->
+        </div>
+        <!-- cont inner end -->
+      </div>
+    </div>
+    <!--//section2-->
+
+    <!--section4-->
+    <div class="section section4">
+      <div class="inner">
+        <div class="contents">
+          <!--timeline-->
+          <div class="timeline">
+            <h2 class="intro-title typing1">TimeLine</h2>
+            <ul>
+              <li class="time-item">
+                <div class="labal">
+                  <span>2021.02 <br>~ 2022.01</span>
+                  <img src="./images/icon-laptop.png" alt=""/>
+                </div>
+                <div class="table">
+                  <p class="summary">핑거롤</p>
+                  <p class="desc">퍼블리셔 사원</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div class="labal">
+                  <span>2021.06 <br>~ 2021.12</span>
+                  <img src="./images/icon-laptop.png" alt=""/>
+                </div>
+                <div class="table">
+                  <p class="summary">하이미디어 컴퓨터학원</p>
+                  <p class="desc">UIUX 디자인&퍼블리싱 6개월 수료</p>
+                </div>
+              </li>
+              <li class="time-item cook">
+                <div class="labal">
+                  <span>2018.01 <br>~ 2020.01</span>
+                  <img src="./images/icon-chef.png" alt=""/>
+                </div>
+                <div class="table">
+                  <p class="summary">세종호텔</p>
+                  <p class="desc"> Banquet Hot/Cold 1st Cook</p>
+                </div>
+              </li>
+              <li class="time-item cook">
+                <div class="labal">
+                  <span>2017.01 <br>~ 2018.01</span>
+                  <img src="./images/icon-chef.png" alt=""/>
+                </div>
+                <div class="table">
+                  <p class="summary">Font212</p>
+                  <p class="desc">Sous Chef</p>
+                </div>
+              </li>
+              <li class="time-item cook">
+                <div class="labal">
+                  <span>2016.09 <br>~ 2016.12</span>
+                  <img src="./images/icon-chef.png" alt=""/>
+                </div>
+                <div class="table">
+                  <p class="summary">리츠칼튼호텔</p>
+                  <p class="desc">Banquet Bucher Cook</p>
+                </div>
+              </li>
+              <li class="time-item cook">
+                <div class="labal">
+                  <span>2015.05 <br>~ 2016.08</span>
+                  <img src="./images/icon-chef.png" alt=""/>
+                </div>
+                <div class="table">
+                  <p class="summary">비스트로 차우기</p>
+                  <p class="desc">Cook</p>
+                </div>
+              </li>
+              <li class="time-item cook">
+                <div class="labal">
+                  <span>2014.01 <br>~ 2014.12</span>
+                  <img src="./images/icon-chef.png" alt=""/>
+                </div>
+                <div class="table">
+                  <p class="summary">르꼬르동 블루</p>
+                  <p class="desc">Diplôme de cuisin 수료</p>
+                </div>
+              </li>
+              <li class="time-item cook">
+                <div class="labal">
+                  <span>2013.12 <br>~ 2015.04</span>
+                  <img src="./images/icon-chef.png" alt=""/>
+                </div>
+                <div class="table">
+                  <p class="summary">루다파파스</p>
+                  <p class="desc">Cook</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div class="labal">
+                  <span>2012.03 <br>~ 2013.12</span>
+                  <img src="./images/icon-assault-rifle.png" alt=""/>
+                </div>
+                <div class="table">
+                  <p class="summary">육군 입대</p>
+                  <p class="desc">병장 만기전역</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div class="labal">
+                  <span>2011.03 <br>~ 2012.02</span>
+                  <img src="./images/icon-laptop.png" alt=""/>
+                </div>
+                <div class="table">
+                  <p class="summary">관동대학교 호텔조리경영학과</p>
+                  <p class="desc">2학년 중퇴</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!--//timeline-->
+          <!--intro-->
+          <div class="intro">
+            <!--greeting-->
+            <div class="greeting">
+              <h2 class="intro-title typing2">Greeting</h2>
+              <div class="greeting-item">
+                  <p>안녕하세요 웹퍼블리셔 양홍열입니다.</p>
+                  <p>이전 회사에서는 퍼블리싱 및 쇼핑몰 운영,배너,상세페이지 제작을 주로 하였습니다.</p>
+                  <p>앞으로 프론트엔드 개발자가 되기 위해 계속 성장중입니다. </p>
+                  <p>조금 늦은 시기에 직업을 전향하여 배울것도 많고 막막했지만 하나둘 알아가며 시야를 넓혀가고 있습니다.</p>
+                  <p>성실함과 긍적적인 성격은 물론이며, 배움에 있어서 부끄러움이 없습니다.</p>
+                  <p>무엇보다 시야를 넓어갈수록 재미를 느끼고 있습니다.</p>
+                  <p>제 포트폴리오를 봐주셔서 감사합니다. </p>
+              </div>
+            </div>
+            <!--//greeting-->
+            <!--skills-->
+            <div class="skills">
+              <h2 class="intro-title typing3">Skills</h2>
+              <ul class="skills-item">
+                <li>
+                  <img src="./images/icon-html-5.png" alt="">
+                  <span class="count-up">80%</span>
+                </li>
+                <li>
+                  <img src="./images/icon-css.png" alt="">
+                  <span>80%</span>
+                </li>
+                <li>
+                  <img src="./images/icon-js.png" alt="">
+                  <span>60%</span>
+                </li>
+                <li>
+                  <img src="./images/icon-react.png" alt="">
+                  <span>40%</span>
+                </li>
+                <li>
+                  <img src="./images/icon-node.png" alt="">
+                  <span>40%</span>
+                </li>
+                <li>
+                  <img src="./images/icon-mysql.png" alt="">
+                  <span>30%</span>
+                </li>
+              </ul>
+            </div>
+            <!--//skills-->
+            <!--certi-->
+            <div class="certi">
+              <h2 class="intro-title typing4">Certificate</h2>
+              <ul>
+                <li class="certi-item">
+                  <img src="./images/icon-laptop.png" alt="">
+                  <span>정보처리기능사</span>
+                </li>
+                <li class="certi-item cook">
+                  <img src="./images/icon-chef.png" alt="">
+                  <span>조주기능사</span>
+                </li>
+                <li class="certi-item cook">
+                  <img src="./images/icon-chef.png" alt="">
+                  <span>중식조리기능사</span>
+                </li>
+                <li class="certi-item cook">
+                  <img src="./images/icon-chef.png" alt="">
+                  <span>양식조리기능사</span>
+                </li>
+                <li class="certi-item cook">
+                  <img src="./images/icon-chef.png" alt="">
+                  <span>한식조리기능사</span>
+                </li>
+              </ul>
+            </div>
+            <!--//certi-->
+          </div>
+        <!--//intro-->
+        </div>
+        <canvas class="canvas2"></canvas>
+      </div>
+      
+    </div>
+    <!--//section4-->
+    
+  </div>
+  <!--remote-->   
+  <div class="remote">
+    <ul>
+      <li>
+        <a href="https://github.com/drrd100" target="_blank">
+          <img src="./images/icon-github.png" alt="">
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://92yeol.tistory.com/" target="_blank">
+          <img src="./images/icon-tistory.png" alt="">
+          <span>Tstroy</span>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:ghdduf9132@gmail.com">
+          <img src="./images/icon-mail.png" alt="">
+          <span>Mail</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!--//remote-->   
+</body>
+<script src="./js/section2.js"></script>
+<script src="./js/section3.js"></script>
+<script src="./lib/bg.js"></script>
+<script src="./js/main.js"></script>
+</html>

@@ -1,0 +1,42 @@
+#menu{
+    position: fixed;
+    top: 10%;
+    left: 2%;
+    color: #fff;
+    z-index: 9;
+}
+#menu li{
+    display: flex;
+    align-items: center;
+}
+#menu li a{
+    font-size: 16px;
+    display: block;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.7;
+    transition: all 0.6s ease;
+}
+#menu li span{
+    display: block;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    overflow: hidden;
+    transition: all 0.6s ease;
+    opacity: 0;
+
+}
+#menu li + li{
+    margin-top: 5px;
+}
+#menu a.active{
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 1;
+}
+#menu a.active + span{
+    font-weight: 500;
+    opacity: 1;
+
+}
