@@ -161,7 +161,7 @@ line-height: 1.2em;
   background-color: rgba(255, 255, 255, 0.4);
   border:  1.5px solid #fff;
   border-radius: 5px;
-  padding: 15px;
+  padding: 12px;
   opacity: 0;
 }
 .section4 .intro .greeting .greeting-item p{
@@ -171,7 +171,7 @@ line-height: 1.2em;
   letter-spacing: -0.01px;
 }
 .section4 .intro .greeting .greeting-item p + p{
-  margin-top: 10px;
+  margin-top: 9px;
 }
 .section4 .intro .skills{
   margin-bottom: 10px;

@@ -363,5 +363,9 @@
   color: #fff;
   text-align: center;
 }
+.white{
+  background-color: #fff !important;
+  color: #000 !important;
+}
 
 /*# sourceMappingURL=section2.css.map */
