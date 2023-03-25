@@ -391,4 +391,11 @@
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+@media (max-width:1200px) {
+  .section2 .section2_swiper li{
+    width: 96vw;
+    margin-right: 3vw;
+  }
+}
+
 /*# sourceMappingURL=section2.css.map */
