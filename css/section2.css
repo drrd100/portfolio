@@ -70,7 +70,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.4);
   opacity: 0;
   transition: opacity 0.5s;
 }
@@ -101,7 +101,7 @@
 }
 .el__heading {
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 26px;
   font-weight: 500;
   letter-spacing: -0.01px;
@@ -124,7 +124,7 @@
   transition: all 0.5s 1.4s;
 }
 .el__text {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 40px;
   color: #fff;
 }
@@ -212,7 +212,7 @@
 }
 .el:nth-child(2) .el__bg:before {
   transition-delay: 0.1s;
-  background-image: url("../images/pr-img2.jpg");
+  background-image: url("../images/pr-samsung.jpeg");
 }
 .el:nth-child(3) {
   transform: translate3d(0, 200%, 0);
@@ -251,7 +251,7 @@
 }
 .el:nth-child(4) .el__bg:before {
   transition-delay: 0.3s;
-  background-image: url("../images/pr-img4.jpg");
+  background-image: url("../images/pr-golf.jpg");
 }
 .el:nth-child(5) {
   transform: translate3d(0, 400%, 0);
@@ -270,7 +270,7 @@
 }
 .el:nth-child(5) .el__bg:before {
   transition-delay: 0.4s;
-  background-image: url("../images/pr-img5.jpg");
+  background-image: url("../images/pr-spowell.jpeg");
 }
 .el:hover .el__bg:after {
   opacity: 0;
@@ -366,6 +366,29 @@
 .white{
   background-color: #fff !important;
   color: #000 !important;
+}
+
+.section2 .section2_swiper{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+}
+.section2 .section2_swiper > ul{
+  align-items: center;
+  -webkit-transition-timing-function:linear!important;
+  -o-transition-timing-function:linear!important;
+  transition-timing-function:linear!important;
+}
+.section2 .section2_swiper li{
+  width: 40vw;
+  margin-right: 3vw;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 /*# sourceMappingURL=section2.css.map */

@@ -317,3 +317,17 @@ line-height: 1.2em;
   opacity: 1;
 
 }
+
+#cursor-custom {
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  position: fixed;
+  background: #fff;
+  border-radius: 50%;
+  transform: translate(-10%,-10%);
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
+    0 0 70px #fff, 0 0 80px #fff, 0 0 100px #fff, 0 0 150px #fff;
+  z-index: 10;
+  cursor: none;
+}

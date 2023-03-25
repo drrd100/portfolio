@@ -1,5 +1,5 @@
 new fullpage('#fullpage', {
-  anchors: ['Greeting', 'Portfolio', 'Project', 'Intro'],
+  anchors: ['Greeting', 'Project','Portfolio', 'Info'],
   menu: '#menu',
   scrollOverflow: true,
   onLeave: function(origin, destination, direction, trigger){
@@ -89,3 +89,32 @@ new fullpage('#fullpage', {
   setTimeout(() =>{
     remote[0].classList.add("on");
   },3000)
+
+  const cursor = document.getElementById("cursor-custom"),
+  radius = cursor.offsetHeight / 2;
+
+  document.addEventListener("mousemove", (e) => {
+    let top = e.clientY - radius,
+      left = e.clientX - radius;
+
+    cursor.style = `top: ${top}px; left: ${left}px`;
+  });
+
+  let swiper = new Swiper(".swiper-container.section2_swiper", {
+    slidesPerView: "auto",
+    spaceBetween: 0,
+    loop:true,
+    observeParents:true,
+    observe:true,
+    pauseOnMouseEnter:true,
+    centeredSlides:true,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false
+    },
+    speed: 5000,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
