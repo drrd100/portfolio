@@ -7,7 +7,7 @@ new fullpage('#fullpage', {
     
     if(origin.index == 2 && direction == 'down'){
       let i = 0
-      let tileList = document.getElementsByClassName("time-item");
+      let titleList = document.getElementsByClassName("time-item");
       let certiList = document.getElementsByClassName("certi-item");
       let skillList = document.getElementsByClassName("skills-item");
       let greeting = document.getElementsByClassName("greeting-item");
@@ -22,8 +22,8 @@ new fullpage('#fullpage', {
         if(i < title.length){
           title[i].style.opacity = 1;
         }
-        if(i < tileList.length){
-          tileList[i].classList.add("timeline-ani");
+        if(i < titleList.length){
+          titleList[i].classList.add("timeline-ani");
           i++
         }else{
           clearInterval(addOpa)
@@ -47,27 +47,6 @@ new fullpage('#fullpage', {
         speed: 120,
       }).go();
 		}
-    if(origin.index == 3 && direction == 'up'){
-      let i = 0
-      let tileList = document.getElementsByClassName("time-item");
-      let certiList = document.getElementsByClassName("certi-item");
-      let skillList = document.getElementsByClassName("skills-item");
-      let greeting = document.getElementsByClassName("greeting-item");
-      let title = document.getElementsByClassName('intro-title');
-
-      skillList[0].classList.remove("timeline-ani");
-      greeting[0].classList.remove("timeline-ani");
-      
-      for(i; i < tileList.length; i++){
-        if(i < certiList.length){
-          certiList[i].classList.remove("timeline-ani");
-        }
-        if(i < title.length){
-          title[i].style.opacity = 0;
-        }
-        tileList[i].classList.remove("timeline-ani");
-      }
-		  }
       
 	}
   });
